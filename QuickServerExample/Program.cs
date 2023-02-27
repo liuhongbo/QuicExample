@@ -22,8 +22,8 @@ namespace QuickClientExample
                 return;
             }
             var protocol = "quic-test";
-            var pfxFilePath = "your pfx file path";
-            var pfxPassword = "your pfx file password";
+            var pfxFilePath = "D:\\Medium\\QuicExample\\contoso.com.pfx";
+            var pfxPassword = "password";
             var port = 8000;
 
             var serverConnectionOptions = new QuicServerConnectionOptions()
